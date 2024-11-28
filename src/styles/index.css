@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image: url('../../public/images/bg.jpg');
+  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  background-color: rgb(1, 20, 5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; 
+  opacity: 0.5; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilo general de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+  height: 12px; /* Altura de la barra horizontal */
+}
+
+/* Estilo del fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #246054; /* Color de fondo de la barra */
+}
+
+/* Estilo del pulgar (parte que se desplaza) */
+::-webkit-scrollbar-thumb {
+  background: #b22222; /* Color rojo oscuro */
+  border-radius: 10px; /* Bordes redondeados */
+  border: 2px solid #246054; /* Borde blanco para un efecto de contorno */
+}
+
+/* Efecto al pasar el ratón sobre la barra */
+::-webkit-scrollbar-thumb:hover {
+  background: #8b0000; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Estilo de la parte de la barra de desplazamiento */
+::-webkit-scrollbar-corner {
+  background: #246054;
+}

@@ -1,0 +1,9 @@
+h1 {
+    font-size: 6em;
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

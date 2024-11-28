@@ -1,0 +1,30 @@
+/* Day.css */
+.day {
+  background-size: cover; /* Asegura que la imagen cubra todo el cuadrado */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita la imagen */
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  color: white; /* Cambia el color del texto para que contraste con las imágenes */
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.day.locked {
+  filter: brightness(50%); /* Oscurece los días bloqueados */
+  cursor: not-allowed;
+
+  opacity: 0.5;
+}
+
+.day:hover {
+  transform: scale(1.05); /* Añade un pequeño zoom al pasar el ratón */
+  opacity: 1;
+}
