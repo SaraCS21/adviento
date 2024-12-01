@@ -15,6 +15,7 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s, transform 0.3s;
+  aspect-ratio: 1;
 }
 
 .day.locked {
@@ -27,4 +28,16 @@
 .day:hover {
   transform: scale(1.05); /* Añade un pequeño zoom al pasar el ratón */
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .day-number {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .day-number {
+    font-size: 1rem;
+  }
 }

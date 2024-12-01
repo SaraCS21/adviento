@@ -7,7 +7,7 @@ const daysContent = [
         <div>
           <h3>¡Bienvenido a tu calendario de adviento!</h3>
           <p>Cada día traerá algo nuevo hasta el famoso día 26 jiji.</p>
-          <p>¡Que empiece la cuenta regresiva!" 🎉</p>
+          <p>¡Que empiece la cuenta regresiva! 🎉</p>
         </div>
       ),
     },

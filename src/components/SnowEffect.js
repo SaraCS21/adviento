@@ -11,7 +11,7 @@ const SnowEffect = () => {
         this.obj = document.createElement("div");
         this.obj.setAttribute('id', id);
         this.obj.innerText = "*";
-        this.obj.style.position = "absolute";
+        this.obj.style.position = "fixed";
         this.obj.style.fontSize = tam + "px";
         this.obj.style.color = "white";
         document.body.appendChild(this.obj);

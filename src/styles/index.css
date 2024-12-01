@@ -16,7 +16,7 @@ body {
 
 body::before {
   content: '';
-  position: absolute;
+  position: fixed;
   background-color: rgb(1, 20, 5);
   top: 0;
   left: 0;
