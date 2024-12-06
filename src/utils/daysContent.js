@@ -16,7 +16,7 @@ const daysContent = [
       image: "/images/img2.png",
       extraContent: (
         <div>
-            <h1>¡FELICIDADES!</h1>
+            <h3>¡FELICIDADES!</h3>
             <p>Usted ha sido seleccionado como el ganador de un fabuloso premio:</p>
             <p><em>besitos infinitos</em></p>
         </div>
@@ -95,8 +95,8 @@ const daysContent = [
       image: "/images/img7.png",
       extraContent: (
         <div>
-            <h1>ESTOY TRISTE Y SOLA</h1>
-            <h1>SIN TI</h1>
+            <h3>ESTOY TRISTE Y SOLA</h3>
+            <h3>SIN TI</h3>
         </div>
       ),
     },
@@ -355,7 +355,7 @@ const daysContent = [
       image: "/images/img25.png",
       extraContent: (
         <div>
-            <h1>MAÑANA</h1>
+            <h3>MAÑANA</h3>
             <h2>CHAN CHAN CHAAAAAAN</h2>
             <p style={{ fontSize: "1.5rem" }}>🎁🎁<span style={{ fontSize: "3rem" }}>🤶</span><span style={{ fontSize: "5rem" }}>🎄</span><span style={{ fontSize: "3rem" }}>🎅</span>🎁🎁</p>
         </div>
