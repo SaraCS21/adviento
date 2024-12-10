@@ -156,7 +156,29 @@ const daysContent = [
     {
       day: 11,
       image: "/images/img11.png",
-      extraContent: <p>¡No te pierdas el contenido de hoy!</p>,
+      extraContent: (
+        <div>
+      <p>Ay ay que nervios, yo estas cosas no las comparto con nadie nunca...</p>
+      <p>Pa ti, pa que dejes de preguntarme que música escucho, verás que no se parece mucho a la música que tu escuchas pero bueno...</p>
+      <a
+        href="https://music.youtube.com/playlist?list=PLVRfrGzqN4uTENDZhpjaJlls5c9fVWuta&si=uogBid9_y6wUbbjG" 
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          display: "inline-block",
+          marginTop: "10px",
+          padding: "10px 20px",
+          backgroundColor: "#d71e18", 
+          color: "white",
+          textDecoration: "none",
+          borderRadius: "5px",
+          fontWeight: "bold",
+        }}
+      >
+        Escuchar playlist 🎶
+      </a>
+    </div>
+      ),
     },
     {
       day: 12,
@@ -232,11 +254,31 @@ const daysContent = [
         </div>
       ),
     },
-    // TODO: playlist mía de youtube music
     {
       day: 17,
       image: "/images/img17.png",
-      extraContent: <p>¡No te pierdas el contenido de hoy!</p>,
+      extraContent: (
+        <div>
+          <p>Este juego seguro que te sorprenderá. ¡Haz clic abajo para jugar!</p>
+          <a
+            href="https://www.humblebundle.com/gift?key=vAAbAy4CpzDZhyXw"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-block",
+              marginTop: "10px",
+              padding: "10px 20px",
+              backgroundColor: "#511191",
+              color: "white",
+              textDecoration: "none",
+              borderRadius: "5px",
+              fontWeight: "bold",
+            }}
+          >
+            Jugar ahora 🎮
+          </a>
+        </div>
+      )
     },
     {
       day: 18,
